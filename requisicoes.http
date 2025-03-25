@@ -1,0 +1,7 @@
+POST http://localhost:5000/soma
+Content-Type: application/json
+
+{
+    "n1" : 2,
+    "n2" : 7
+}
