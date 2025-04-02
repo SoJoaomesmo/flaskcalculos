@@ -5,3 +5,20 @@ Content-Type: application/json
     "n1" : 2,
     "n2" : 7
 }
+
+###
+
+GET http://localhost:5000/calculos
+
+###
+DELETE http://localhost:5000/deletar/a91b32d3-244c-43a3-a163-a4fa0667177d
+
+###
+
+PUT http://localhost:5000/editar/a91b32d3-244c-43a3-a163-a4fa0667177d
+Content-Type: application/json
+
+{
+    "n1" : 5,
+    "n2" : 7
+}
