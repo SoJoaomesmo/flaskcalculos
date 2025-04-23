@@ -53,3 +53,10 @@ def editar(id):
     return {"Lista" : lista}
 
 #.venv/Scripts/activate
+
+#select * from Pessoas left join Vendas
+#on Pessoas.id = Vendas.idPessoa
+# Leftjoin = primeiro
+# Rightjoin = segundo
+# Innerjoin = Meio
+# Full join = tudo
